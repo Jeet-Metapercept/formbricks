@@ -46,7 +46,7 @@ services:
       # ENTERPRISE_LICENSE_KEY:
 
       # Email Configuration
-      MAIL_FROM: "jeetp@proximabiz.com"
+      MAIL_FROM: "no-repy@survey.proximabiz.net"
       SMTP_HOST: "smtp.gmail.com"
       SMTP_PORT: 587
       SMTP_SECURE_ENABLED: 1
