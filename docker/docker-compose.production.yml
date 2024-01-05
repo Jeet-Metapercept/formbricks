@@ -48,7 +48,7 @@ services:
       # Email Configuration
       MAIL_FROM: "survey@proximabiz.com"
       SMTP_HOST: "smtp.gmail.com"
-      SMTP_PORT: 587
+      SMTP_PORT: 465
       SMTP_SECURE_ENABLED: 0
       SMTP_USER: "jeetp@proximabiz.com"
       SMTP_PASSWORD: "9879266228"
