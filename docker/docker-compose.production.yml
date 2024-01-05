@@ -69,7 +69,7 @@ services:
       # INVITE_DISABLED:
 
       # Uncomment the below and set a value to have your own Privacy Page URL on the signup & login page
-      # PRIVACY_URL:
+      # PRIVACY_URL:  
 
       # Uncomment the below and set a value to have your own Terms Page URL on the auth and the surveys page
       # TERMS_URL:
@@ -97,6 +97,6 @@ services:
       ONBOARDING_DISABLED: 1
 
 volumes:
-  postgres:
-    driver: local
+  # postgres:
+  #   driver: local
   uploads:
