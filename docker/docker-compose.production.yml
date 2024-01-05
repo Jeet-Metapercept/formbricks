@@ -3,7 +3,7 @@ x-environment: &environment
     # https://formbricks.com/docs/self-hosting/docker#important-run-time-variables
   environment:
     # The url of your Formbricks instance used in the admin panel
-    WEBAPP_URL: # http://localhost:3000 # https://survey.proximabiz.net
+    WEBAPP_URL: https://survey.proximabiz.net
 
     # PostgreSQL DB for Formbricks to connect to
     # DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/formbricks?schema=public"
@@ -91,7 +91,6 @@ services:
   formbricks:
     restart: always
     image: ghcr.io/formbricks/formbricks:latest
-    platform: linux/amd64
     # depends_on:
     #   - postgres
     ports:
